@@ -8,4 +8,4 @@ Licensed under the BSD license.
 [Upstream Repository](https://github.com/rtavenar/tslearn)
 
 # Installation
-Running `makepkg -si` in the directory with the PKGBUIL should build and install the `python-tslearn` package.
+Running `makepkg -si` in the directory with the PKGBUILD should build and install the `python-tslearn` package. Alternatively, use your favorite AUR package helper like `yaourt` or `aurget`.
