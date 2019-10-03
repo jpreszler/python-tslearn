@@ -1,13 +1,13 @@
 #Maintainer: Jason Preszler <jpreszler@gmail.com>, 4/16/2019
 pkgname=python-tslearn
-pkgver=0.1.29
+pkgver=0.2.4
 pkgrel=1
 pkgdesc="'tslearn' is a python package that provides machine learning tools for the analysis of time series."
 arch=('x86_64')
 url='https://github.com/rtavenar/tslearn'
 license=('BSD')
 groups=()
-depends=('python' 'python-numpy' 'python-scipy' 'cython' 'python-scikit-learn')
+depends=('python' 'python-numpy' 'python-scipy' 'cython' 'python-scikit-learn' 'python-numba')
 optdepends=('python-tensorflow' 'python-keras-applications' 'python-keras-preprocessing')
 makedepends=('python-setuptools' 'cython>=0.17')
 options=(!emptydirs)
